@@ -1,0 +1,159 @@
+/*!
+ * Based on Modern Business HTML Template (http://startbootstrap.com)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+/* footer { margin: 50px 0; } */
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* =========  modified by BB ============= */
+
+div.mce-fullscreen {
+	z-index: 1050;
+	top: 51px!important;
+	bottom: 51px!important;
+}
+
+.row-eq-height{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vcenter {
+
+	display: flex;
+	align-items: center;
+
+}
+
+.vbottom {
+
+	display: flex;
+	vertical-align: bottom;
+
+}
+
+.underline {
+
+	border-top: 3px solid #8c8b8b;
+
+}
+
+/* Body Carousel */
+
+.bodycarousel {
+    height: 50%;
+}
+
+.bodycarousel .item,
+.bodycarousel .item.active,
+.bodycarousel .carousel-inner {
+    height: 100%;
+}
+
+.bodycarousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Embedded Video */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
